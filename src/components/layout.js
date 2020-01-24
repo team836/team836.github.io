@@ -23,7 +23,7 @@ const Layout = props => {
     canvas.width = 1000
     canvas.height = 1000
 
-    var party = SmokeMachine(ctx, [0, 0, 0])
+    var party = SmokeMachine(ctx, [30, 20, 0])
 
     party.start()
 
@@ -47,7 +47,10 @@ const Layout = props => {
     header = (
       <header className="header post">
         <h1>
-          <Link to={`/`}>{`← Home`}</Link>
+          <Link to={`/`}>
+            <span className="arrow">{`←`}</span>
+            {` Home`}
+          </Link>
         </h1>
       </header>
     )
@@ -57,8 +60,26 @@ const Layout = props => {
       {header}
       <main>{children}</main>
       <footer className="footer">
-        © {new Date().getFullYear()}{' '}
-        <a href="https://github.com/team836">Team836</a>
+        © {new Date().getFullYear()}
+        {` `}
+        <a
+          href="https://github.com/team836"
+          style={{
+            textDecoration: 'underline',
+          }}
+        >
+          Team836
+        </a>
+        {` | `}
+        Designed by{' '}
+        <a
+          href="https://jhaemin.com"
+          style={{
+            textDecoration: 'underline',
+          }}
+        >
+          J.Haemin
+        </a>
       </footer>
     </div>
   )
