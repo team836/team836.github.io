@@ -14,4 +14,4 @@ description: good work haemin seunim
 어쨌든 해민 굿잡~~!\
 
 얘 누구게?\
-./IMG_6005.jpeg
+![img](./IMG_6005.jpeg)
