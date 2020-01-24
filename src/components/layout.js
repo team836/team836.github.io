@@ -4,7 +4,6 @@ import '../styles/fonts.css'
 import '../styles/globalstyle.scss'
 import '../styles/layout.scss'
 import Team836Logo from '../assets/team836-logo.svg'
-import SmokeMachine from '@bijection/smoke'
 
 const Layout = props => {
   const { location, title, children } = props
@@ -17,6 +16,8 @@ const Layout = props => {
     if (!canvas) {
       return
     }
+
+    const SmokeMachine = require('@bijection/smoke')
 
     let ctx = canvas.getContext('2d')
     canvas.width = 1000
