@@ -2,6 +2,7 @@
 title: Awesome Blog Haemin
 date: '2020-01-24T11:00:32.169Z'
 author: RyuJaesang
+description: good work haemin seunim
 ---
 
 # Goodjob Haemin, 블로그 잘 만들었다
