@@ -43,12 +43,12 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "dev": "gatsby develop",
+    "dev": "gatsby clean && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "push-dir": "push-dir --dir=public --branch=master",
-    "deploy": "gatsby build && gh-pages -d public"
+    "deploy": "gatsby build && npm run push-dir"
   }
 }
