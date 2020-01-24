@@ -147,3 +147,35 @@
   src: url('/fonts/Inter/Inter-ExtraBold.woff2') format('woff2'),
     url('/fonts/Inter/Inter-ExtraBold.woff') format('woff');
 }
+
+/* JetBrains Mono */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2') format('woff2'),
+    url('/fonts/JetBrainsMono/JetBrainsMono-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/JetBrainsMono/JetBrainsMono-Medium.woff2') format('woff2'),
+    url('/fonts/JetBrainsMono/JetBrainsMono-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/JetBrainsMono/JetBrainsMono-Bold.woff2') format('woff2'),
+    url('/fonts/JetBrainsMono/JetBrainsMono-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/JetBrainsMono/JetBrainsMono-ExtraBold.woff2') format('woff2'),
+    url('/fonts/JetBrainsMono/JetBrainsMono-ExtraBold.woff') format('woff');
+}

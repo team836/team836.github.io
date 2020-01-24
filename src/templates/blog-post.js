@@ -4,9 +4,9 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-import '../styles/blog-post.scss'
-
 const BlogPostTemplate = props => {
+  require('../styles/blog-post.scss')
+
   const post = props.data.markdownRemark
   const siteTitle = props.data.site.siteMetadata.title
   const { previous, next } = props.pageContext
@@ -17,53 +17,34 @@ const BlogPostTemplate = props => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article>
-        <header>
-          <h1
-            style={{
-              marginBottom: 0,
-            }}
-          >
-            {post.frontmatter.title}
-          </h1>
-          <p
-            style={{
-              display: `block`,
-            }}
-          >
-            {post.frontmatter.date}
-          </p>
-        </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr style={{}} />
-      </article>
+      <div id="blog-post">
+        <article>
+          <header>
+            <h1 className="title">{post.frontmatter.title}</h1>
+            <p className="date">{post.frontmatter.date}</p>
+          </header>
+          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        </article>
 
-      <nav>
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
+        <nav className="nav">
+          <ul className="nav-list">
+            <li className="nl-item">
+              {previous && (
+                <Link to={previous.fields.slug} rel="prev" className="nl-link">
+                  ← {previous.frontmatter.title}
+                </Link>
+              )}
+            </li>
+            <li className="nl-item">
+              {next && (
+                <Link to={next.fields.slug} rel="next" className="nl-link">
+                  {next.frontmatter.title} →
+                </Link>
+              )}
+            </li>
+          </ul>
+        </nav>
+      </div>
     </Layout>
   )
 }

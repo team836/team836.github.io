@@ -1,9 +1,17 @@
 .home-article {
   color: #fff;
-  transition: all 0.1s ease;
+  transition: all 0.2s ease;
   cursor: pointer;
   color: #222;
-  margin: 3rem 0;
+  margin: 0 -2rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+
+  &:hover {
+    box-shadow: 0 0.7rem 2.5rem rgba(#000, 0.2);
+    transform: scale(1.02);
+    z-index: 100;
+  }
 
   .title {
     font-size: 1.3rem;
