@@ -47,7 +47,7 @@ const Layout = props => {
     header = (
       <header className="header post">
         <h1>
-          <Link to={`/`}>{title}</Link>
+          <Link to={`/`}>{`← Home`}</Link>
         </h1>
       </header>
     )
