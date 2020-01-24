@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Team836 Blog]]></title><description><![CDATA[Team836's blog]]></description><link>https://github.com/team836</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 24 Jan 2020 20:36:36 GMT</lastBuildDate><item><title><![CDATA[Team836 Blog Tutorial]]></title><description><![CDATA[This is H1 This is H2 This is H3 I recommend to use only  This is paragraph Another paragraph This is a blockquote  is helful when you…]]></description><link>https://github.com/team836/team836-blog-tutorial/</link><guid isPermaLink="false">https://github.com/team836/team836-blog-tutorial/</guid><pubDate>Fri, 24 Jan 2020 20:15:07 GMT</pubDate><content:encoded>&lt;h1&gt;This is H1&lt;/h1&gt;
+&lt;h2&gt;This is H2&lt;/h2&gt;
+&lt;h3&gt;This is H3&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I recommend to use only &lt;code class=&quot;language-text&quot;&gt;h1 ~ h3&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is paragraph&lt;/p&gt;
+&lt;p&gt;Another paragraph&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// You can also include code blocks&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Hello World&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;inline code block&lt;/code&gt; is helful when you emphasize things.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Col 1&lt;/th&gt;
+&lt;th&gt;Col2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;You can make a table&lt;/td&gt;
+&lt;td&gt;Like this&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3515c16b7002e87d1aa3bdc3c0a3c5b1/32056/logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaElEQVQ4y5VUz0tqQRS+/gJdiKH9A4JCQUIEthALwkRw4arInRtBSzDcBEakqxdCEGG6EATB6C8waBMUrgRNaiGiQZvWrlxIj/yec54jc6/3SW/gMMcz53x+95xvRpIkKT2x3xMbC4YfmljzNbGsNAXDIiCtVkvGf+t0OjIFMPdlrOYYikCir5LP9m9JEZAVaDQa2re2trC9vU2+yWRCNBpFKBRSYzhWBWRAHOz4+Bh8HR4ewmq1kv/x8THLUdh8v7ifzWap+OTkhIytSqWC0WiETqej1gI5oJhQKBQI4OjoaBZjDPlqt9uLGYpgd3d3VBQOh+emur+/T2efn5+zmIKpJPunh4cHKggEAjMwUS5sDwaDlMNylQOUuLO0tIRWq0WJXq+XYnq9XsaQ5fIYmzpbLy8vVDsD5XTdbjfe3t6wsrKy8HaIn+d0OvH6+orNzU3xTF5gt9txcXGBg4ODme5SqRRNmTPZ3d3F5eUlNjY21IfCP9tms2EwGOD8/Jx0FovFkMlkUKvVcH9/j2q1SiJ/f3/Hzc0Nnp+fYTabF+uQFd7e3qLZbMLn81HvdnZ20Gg0EIlEcH19TWdXV1coFoswGAz/ZuhwONDv95FIJFCv10nYy8vLWF9fJykxUZdKJerb2toahsMh/H6/srfSeAo4drlclJROp9HtdpHL5ZDP5/H09EQSeXx8JLa9Xg/lcpl21nOF9P7e4UmA9tXVVZyenmJvb48SjEYj4vE4kskkLBYLxTweD87OzmjKYq34OIwVBz+SjQoYAX6Jrw0Xr/KGcGFzUJYjfKbsgc1One//fP7VHtlffwAwnFcS2vBfKwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;logo&quot;
+        title=&quot;logo&quot;
+        src=&quot;/static/3515c16b7002e87d1aa3bdc3c0a3c5b1/fcda8/logo.png&quot;
+        srcset=&quot;/static/3515c16b7002e87d1aa3bdc3c0a3c5b1/12f09/logo.png 148w,
+/static/3515c16b7002e87d1aa3bdc3c0a3c5b1/e4a3f/logo.png 295w,
+/static/3515c16b7002e87d1aa3bdc3c0a3c5b1/fcda8/logo.png 590w,
+/static/3515c16b7002e87d1aa3bdc3c0a3c5b1/32056/logo.png 602w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;Publishing a new post&lt;/h1&gt;
+&lt;p&gt;Under &lt;code class=&quot;language-text&quot;&gt;content/blog&lt;/code&gt; You can create a new directory or just a single markdown file for a new post. The name should be written in &lt;code class=&quot;language-text&quot;&gt;param-case&lt;/code&gt; of your post’s title. For example, when you write a new post which title is ‘Hello World’, name a directory or a single markdown file as ‘hello-world’.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Name markdown file as ‘index.md’ when you create a directory.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;blog /
+  new-post-title /
+    index.md
+    other_stuff&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After adding new posts, push to the git origin and run the script below.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Make sure to push all the commits and clear the git status before deploying.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;zsh&quot;&gt;&lt;pre class=&quot;language-zsh&quot;&gt;&lt;code class=&quot;language-zsh&quot;&gt;% npm run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Template&lt;/h2&gt;
+&lt;p&gt;You should follow &lt;a href=&quot;https://raw.githubusercontent.com/team836/team836.github.io/dev/content/blog-template/example.md&quot;&gt;the template&lt;/a&gt; to make it work properly.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Awesome Blog Haemin]]></title><description><![CDATA[Goodjob Haemin, 블로그 잘 만들었다 블로그 잘 만들었네유 고생하셨어요 회원님,,,^^@ 근데 ’#’ property랑 ’###‘property…]]></description><link>https://github.com/team836/Room 836/</link><guid isPermaLink="false">https://github.com/team836/Room 836/</guid><pubDate>Fri, 24 Jan 2020 11:00:32 GMT</pubDate><content:encoded>&lt;h1&gt;Goodjob Haemin, 블로그 잘 만들었다&lt;/h1&gt;
+&lt;p&gt;블로그 잘 만들었네유 고생하셨어요 회원님,,,^^@&lt;br&gt;
+근데 ’#’ property랑 ’###‘property 같은 게 어떤 스타일이 되는지 모르겠는데&lt;br&gt;
+이런 거 정리해서 올려놓으면 좋을거 같아&lt;br&gt;
+그리고 blog에 글 쓴거 style 제대로 import되고, 이미지 로딩만 해결되면 왕 이쁠듯?&lt;br&gt;
+어쨌든 해민 굿잡~~!\&lt;/p&gt;
+&lt;p&gt;얘 누구게?&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/22e6d20e67f2292f1b8e59aece071f6c/6a068/IMG_6005.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBQQG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAHaoy5R2LleaiM9oNP/xAAbEAACAgMBAAAAAAAAAAAAAAABAgADBBEiE//aAAgBAQABBQIRblZ7b/NjlEzGYbIDQHgxOV//xAAWEQADAAAAAAAAAAAAAAAAAAABESD/2gAIAQMBAT8BCj//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAbEAADAAIDAAAAAAAAAAAAAAAAAREQEiFRcf/aAAgBAQAGPwI1j97JqOJFfDKTCP/EABoQAQADAQEBAAAAAAAAAAAAAAEAESExUWH/2gAIAQEAAT8hUpQfEZGzblwckOEvlA4TSFxfiNxVUSIVsvZ//9oADAMBAAIAAwAAABB4wMD/xAAYEQEBAQEBAAAAAAAAAAAAAAABADERIf/aAAgBAwEBPxBIfbs7GX//xAAXEQEAAwAAAAAAAAAAAAAAAAABABAR/9oACAECAQE/EFZjf//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExQWHRcf/aAAgBAQABPxAgji/XiWNg+ykRosPb5GqgbFuZ4qAKW9/YiAxoUhwANQbUjpGG4NkDlq5//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;img&quot;
+        title=&quot;img&quot;
+        src=&quot;/static/22e6d20e67f2292f1b8e59aece071f6c/1c72d/IMG_6005.jpg&quot;
+        srcset=&quot;/static/22e6d20e67f2292f1b8e59aece071f6c/a80bd/IMG_6005.jpg 148w,
+/static/22e6d20e67f2292f1b8e59aece071f6c/1c91a/IMG_6005.jpg 295w,
+/static/22e6d20e67f2292f1b8e59aece071f6c/1c72d/IMG_6005.jpg 590w,
+/static/22e6d20e67f2292f1b8e59aece071f6c/a8a14/IMG_6005.jpg 885w,
+/static/22e6d20e67f2292f1b8e59aece071f6c/6a068/IMG_6005.jpg 960w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
