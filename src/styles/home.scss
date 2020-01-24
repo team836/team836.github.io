@@ -1,0 +1,24 @@
+.home-article {
+  color: #fff;
+  transition: all 0.1s ease;
+  cursor: pointer;
+  color: #222;
+  margin: 3rem 0;
+
+  .title {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .date {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #808080;
+    margin-top: 0.5rem;
+  }
+
+  .body {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+}

@@ -1,4 +1,45 @@
 .boundary {
   max-width: 600px;
   margin: auto;
+  padding-top: 3rem;
+  width: calc(100% - 2rem);
+}
+
+.header {
+  font-weight: 900;
+  margin-bottom: 2rem;
+  position: relative;
+
+  &.home {
+    display: flex;
+    justify-content: flex-start;
+
+    .logo-wrapper {
+      position: relative;
+
+      canvas {
+        position: absolute;
+        left: 3.2rem;
+        top: -5.3rem;
+        transform: scale(0.1) scaleX(0.7);
+        transform-origin: top left;
+      }
+    }
+
+    img {
+      width: 7rem;
+    }
+  }
+
+  &.post {
+    font-size: 1.2rem;
+  }
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+  color: #808080;
 }

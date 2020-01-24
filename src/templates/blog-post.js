@@ -4,6 +4,8 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+import '../styles/blog-post.scss'
+
 const BlogPostTemplate = props => {
   const post = props.data.markdownRemark
   const siteTitle = props.data.site.siteMetadata.title
