@@ -49,6 +49,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "push-dir": "push-dir --dir=public --branch=master",
-    "deploy": "gatsby build && npm run push-dir"
+    "deploy": "gatsby build && npm run push-dir",
+    "get-time": "node src/module/get-time.js"
   }
 }
